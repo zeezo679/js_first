@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Special Design</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- start settings box -->
+    <div class="settings-box">
+        <div class="toggle-settings">
+            <i class="fa fa-gear settings"></i>
+        </div>
+        <div class="settings-container">
+            <div class="option-box">
+                <h4 >Colors</h4>
+                <ul class="colors-list">
+                    <li data-color="#FF9800"></li>
+                    <li data-color="#e91e63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#03a9f4"></li>
+                    <li data-color="#4caf50"></li>
+                </ul>
+            </div>
+            <div class="option-box">
+                <h4 style="font-size: 14px;">Random Backgrounds</h4>
+                <div class="random-backgrounds">
+                    <span class="yes" data-background="yes">Yes</span>
+                    <span class="no" data-background="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4 style="font-size: 14px;">Show Bullets</h4>
+                <div class="bullets-option">
+                    <span class="yes" data-display="yes">Yes</span>
+                    <span class="no" data-display="no">No</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <h4 style="font-size: 14px;">Font Size</h4>
+                <div class="font-option">
+                    <span class="fourteen" data-font="14">14</span>
+                    <span class="seventeen" data-font="17">17</span>
+                    <span class="twenty-five" data-font="25">25</span>
+                </div>
+            </div>
+            <div class="option-box">
+                <div class="reset-option">
+                    <span class="reset" data-reset="reset">Reset</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end settings box -->
+
+    <!-- start nav bullets -->
+    <div class="nav-bullets">
+        <div class="bullet" data-section=".about-us">
+            <div class="tooltip" >About Us</div>
+        </div>
+        <div class="bullet" data-section=".skills">
+            <div class="tooltip" >Our Skills</div>
+        </div>
+        <div class="bullet" data-section=".gallery">
+            <div class="tooltip" >Our Gallery</div>
+        </div>
+        <div class="bullet" data-section=".timeline">
+            <div class="tooltip" >Our Timeline</div>
+        </div>
+    </div>
+    <!-- end nav bullets -->
+
+    <!-- start landing page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+       <div class="container">
+            <div class="header-area">
+                <div class="logo">Special Design</div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li><a href="#" class="active" data-section=".about-us">About</a></li>
+                        <li><a href="#" data-section=".skills">skills</a></li>
+                        <li><a href="#">gallery</a></li>
+                        <li><a href="#">timeline</a></li>
+                        <li><a href="#">features</a></li>
+                        <li><a href="#">testimonials</a></li>
+                    </ul>
+                    <button class="toggle-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </div>
+       </div>
+        <div class="introduction-text">
+            <h1>We are <span>creative</span> agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor tenetur voluptate eos voluptatem ad exercitationem deserunt fuga officia tempora. Aliquam, enim? Fugiat tenetur excepturi saepe</p>
+        </div>
+    </div>
+    <!-- ending landing page -->
+    <!-- start about us sectiion -->
+    <div class="container">
+        <div class="about-us">
+            <div class="info-box">
+                <h2>About Us</h2>
+                <p>orem ipsum dolor sit, amet consectetur adipisicing elit. Modi atque esse  orem ipsum dolor sit, amet consectetur adipisicing elit. Modi atque esse  orem ipsum dolor sit, amet consectetur adipisicing elit. Modi atque esse Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi atque esse omnis veniam possimus commodi soluta fugiat itaque quos quam.</p>
+            </div>
+            <div class="image-box">
+                <img src="images/about-us.avif" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end about us section -->
+    <!-- start our skills -->
+    <div class="skills">
+        <div class="container">
+            <h2>Our Skills</h2>
+            <div class="skill-box">
+                <div class="skill-name">HTML</div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">CSS</div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill-name">Javascript</div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our skills -->
+    <!-- start gallery -->
+    <div class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images-box">
+                <img src="images/1.png" alt="image one">
+                <img src="images/2.png" alt="image two">
+                <img src="images/3.png" alt="image three">
+                <img src="images/4.png" alt="image four">
+                <img src="images/5.png" alt="image five">
+                <img src="images/6.png" alt="">
+                <img src="images/7.png" alt="">
+                <img src="images/8.png" alt="">
+                <img src="images/9.png" alt="">
+                <img src="images/10.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- end gallery -->
+    <!-- start timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-content">
+                
+                <div class="year">2018</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia </p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia </p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="year">2016</div>
+                <div class="left">
+                    <div class="content">
+                        <h3>Testing heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia </p>
+                    </div>
+                </div>
+                <div class="clearFloat"></div>
+                <div class="right">
+                    <div class="content">
+                        <h3>Testing heading</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start features -->
+    <div class="features">
+        <h2>Our Features</h2>
+        <div class="container">
+            <div class="feat-box">
+                <img src="/images/1.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus, quaerat, consectetur eligendi velit labore laboriosam totam quam veniam numquam distinctio illo animi omnis architecto quia debitis harum laborum dignissimos.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/images/2.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus, quaerat, consectetur eligendi velit labore laboriosam totam quam veniam numquam distinctio illo animi omnis architecto quia debitis harum laborum dignissimos.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/images/3.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus, quaerat, consectetur eligendi velit labore laboriosam totam quam veniam numquam distinctio illo animi omnis architecto quia debitis harum laborum dignissimos.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/images/4.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus, quaerat, consectetur eligendi velit labore laboriosam totam quam veniam numquam distinctio illo animi omnis architecto quia debitis harum laborum dignissimos.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/images/5.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus, quaerat, consectetur eligendi velit labore laboriosam totam quam veniam numquam distinctio illo animi omnis architecto quia debitis harum laborum dignissimos.</p>
+            </div>
+            <div class="feat-box">
+                <img src="/images/6.png" alt="">
+                <h4>Development</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas natus, quaerat, consectetur eligendi velit labore laboriosam totam quam veniam numquam distinctio illo animi omnis architecto quia debitis harum laborum dignissimos.</p>
+            </div>
+            <div class="clearFloat"></div>
+        </div>
+    </div>
+    <!-- end features -->
+    <!-- start testimonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, beatae!</p>
+                <div class="person-info">
+                    <img src="https://placehold.it/80/DDD" alt="">
+                    <h4>Zeezo</h4>
+                    <p>CEO at company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, beatae!</p>
+                <div class="person-info">
+                    <img src="https://placehold.it/80/DDD" alt="">
+                    <h4>Zeezo</h4>
+                    <p>CEO at company</p>
+                </div>
+            </div>
+            <div class="ts-box">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, beatae!</p>
+                <div class="person-info">
+                    <img src="https://placehold.it/80/DDD" alt="">
+                    <h4>Zeezo</h4>
+                    <p>CEO at company</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearFloat"></div>
+    </div>
+    <!-- end testimonials -->
+    <!-- start contact us -->
+    <div class="contact">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="">
+                <div class="left">
+                    <input type="text" placeholder="Your Name" name="username">
+                    <input type="tel" placeholder="Yout Phone" name="phone">
+                    <input type="email" placeholder="Your Email" name="mail">
+                    <input type="text" placeholder="Subject" name="subject">
+                </div>
+                <div class="right">
+                    <textarea name="message" placeholder="Your Messag" ></textarea>
+                    <input type="submit" value="send">
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- end contact us -->
+    <!-- start footer -->
+    <div class="footer">Created With Love By Zeyad Elwahsh</div>
+    <!-- end footer -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
